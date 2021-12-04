@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class="section" id="header">
+        <h1 id="title">My library</h1>
+    </div>
+    <div class="section" id="content">
+        <div class="left" id="menu">
+            <h2 id="menu-label">Add book</h2>
+                <ul id="new-book-info">
+                    <li><input class="text-input" id="new-title" name="new-title" type="text" value="Title"></li>
+                    <li><input class="text-input" id="new-author" name="new-author" type="text" value="Author"></li>
+                    <li><input class="bool-input" id="new-read" name = "new-read" type="checkbox" value="true"> read?</li>
+                    <li><button class="submit-btn" id="submit-btn">add</button></li>
+                </ul>
+        </div>
+        <div class="right" id="bookshelf">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
